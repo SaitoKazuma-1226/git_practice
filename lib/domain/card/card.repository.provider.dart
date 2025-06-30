@@ -4,5 +4,5 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 export 'card.dart';
 
 @riverpod
-final locationRepositoryProvider =
+final cardRepositoryProvider =
 Provider<CardRepository>((_) => throw UnimplementedError());
